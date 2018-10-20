@@ -165,7 +165,7 @@ class CVMaker
     end
   end
 
-  def puts_history(year_x, month_x, value_x, h)
+  def put_history(year_x, month_x, value_x, h)
     year = h.fetch("year", "").to_s
     month = h.fetch("month", "").to_s
     put_string(year_x, y, year, font_size, font_face)
