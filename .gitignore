@@ -1,2 +1,4 @@
 fonts
 *.pdf
+/.bundle
+/vendor/bundle

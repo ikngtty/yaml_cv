@@ -1,8 +1,10 @@
 # coding: utf-8
 require "optparse"
-require "prawn"
 require "yaml"
 require "./txt2yaml"
+
+require "bundler/setup"
+require "prawn"
 
 $font_faces = Hash.new
 $font_faces["mincho"] = "fonts/ipaexm.ttf"
@@ -294,7 +296,7 @@ Please download IPAex fonts via
 
 https://ipafont.ipa.go.jp/node26
 
-and place them as 
+and place them as
 
 ├── fonts
 │   ├── ipaexg.ttf
